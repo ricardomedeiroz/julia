@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Julia</title>
+    <style>
+        /* Estilos apenas para a Página 1 */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fundo escuro para combinar com a transição para as flores */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .foto-centro {
+            max-width: 80%;
+            max-height: 60vh;
+            border-radius: 15px; /* Deixa as bordas da foto arredondadas */
+            object-fit: cover;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+        }
+
+        .botao-clique {
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background-color: #ee5286; /* Cor rosa inspirada nas flores */
+            text-decoration: none; /* Tira o sublinhado padrão de links */
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .botao-clique:hover {
+            background-color: #f672b0; /* Fica um rosa mais claro ao passar o mouse */
+            transform: scale(1.05); /* Dá uma leve crescida */
+        }
+    </style>
+</head>
+<body>
+
+    <img src="julia.jpg" alt="Foto da Julia" class="foto-centro">
+    
+    <a href="flores.html" class="botao-clique">Clique aqui</a>
+
+</body>
+</html>
